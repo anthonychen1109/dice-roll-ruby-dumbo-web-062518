@@ -6,6 +6,10 @@ def roll
   # code goes here
   # rand(1..6)
   counter = 1
-  while (counter)
+  arr = []
+  while counter <= 6
+    arr.push(counter)
+    counter += 1
+  end
   arr[rand(0..5)]
 end
